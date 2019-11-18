@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="118dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="Welcome\n to "
+        android:textAllCaps="true"
+        android:textColor="#FD050000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-black" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:text="CYBER HOUSECALL"
+        android:textColor="#F70000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="275dp"
+        app:srcCompat="@drawable/pic1" />
+
+    <Button
+        android:id="@+id/proceedbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:background="#F20E0000"
+        android:gravity="clip_horizontal|center|center_vertical"
+        android:text="Click to Proceed"
+        android:textColor="#FD0000"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

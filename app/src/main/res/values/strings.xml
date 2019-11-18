@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MainApp</string>
+
+    <string name="welcome_text">Quiz Maker Options</string>
+    <string name="button_createMP">Add Multiple Choice Questions</string>
+    <string name="button_createTF">Add True or False Questions</string>
+    <string name="button_createNP">Add Numeric Questions</string>
+    <string name="button_createFromXml">Create from File</string>
+    <string name="button_questionList">View Question List</string>
+    <string name="button_viewInfo">View Information</string>
+
+    <string name="question">Type Question</string>
+    <string name="option_1">A</string>
+    <string name="option_2">B</string>
+    <string name="option_3">C</string>
+    <string name="option_4">D</string>
+    <string name="answer">Correct Answer</string>
+    <string name="submit">Add question</string>
+
+    <string name="input">Enter answer</string>
+
+    <string name="trueOrFalse">Select correct answer</string>
+    <string name="trueButton">True</string>
+    <string name="falseButton">False</string>
+
+    <string name="generating">Generating PDF file</string>
+    <string name="wait">Please wait</string>
+</resources>

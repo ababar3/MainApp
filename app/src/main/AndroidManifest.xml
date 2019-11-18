@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.mainapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="mnt/sdcard/invioce.pdf" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="CyberHouseCall"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.DeleteQuestionActivity" />
+        <activity
+            android:name=".Activities.ResultActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Activities.QuestionsListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.CreateQuestionActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.AdminControlActivity" />
+        <activity android:name=".Activities.MainViewActivity" />
+        <activity android:name=".Activities.ClientInfoActivity" />
+        <activity android:name=".Activities.SplashActivity">
+
+        </activity>
+    </application>
+
+</manifest>
